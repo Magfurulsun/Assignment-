@@ -1,0 +1,107 @@
+@font-face {
+  font-family: roboto regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto regular;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  background-image: linear-gradient(red, yellow);
+}
+.box {
+  width: 250px;
+  background-color: white;
+  height: 500px;
+  padding: 10px 15px;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+.box .login .in p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.box .login .in input {
+  padding: 10px 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.box .login .in {
+  position: relative;
+}
+.box .login .in i {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  font-size: 14px;
+}
+.box .login .put input {
+  padding: 10px 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.box .login .put {
+  position: relative;
+}
+.box .login .put i {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  font-size: 14px;
+}
+.box .login .put a {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+}
+.box .login .btn button {
+  display: block;
+  width: 100%;
+  padding: 5px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.6);
+  border: rgba(0, 0, 255, 0.6);
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.box h1 {
+  text-align: center;
+  font-size: 25px;
+}
+.box .login .put p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.box .login .im img {
+  display: inline-block;
+  width: 30px;
+  margin-top: 10px;
+}
+.box .login .im p {
+  margin-top: 30px;
+  text-align: center;
+}
+.box .login .im {
+  text-align: center;
+}
